@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{list-style: none;}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    position: relative
+}
+
+.head{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    position: relative
+}
+
+.aaa{
+    position: relative;
+}
+
+.abb{
+    position: absolute;
+    width: 124px;
+    height: 0px;
+    background-color: #fff; 
+    overflow: hidden;
+    font-size: 14px;
+    color: black;
+    left: -38px;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 0 10px 10px gray;
+    transition: height 2s ease;
+} 
+
+.app{
+    width: 90px;
+    height: 90px;
+    margin: 18px 17px 0px 17px;
+}
+
+.left>.aaa:hover .abb{
+    display: block;
+    width: 124px;
+    height: 160px;
+}
+
+.car{
+    position: relative;
+    background-color: #424242;   
+}
+.car:hover{
+    color: #ff6700;
+
+}
+.cars{
+    position: absolute;
+    width: 316px;
+    height: 0px;
+    background: #fff;
+    text-align: center;
+    left: -231px;
+    z-index: 2;
+    overflow: hidden;
+    font-size: 10px;
+    box-shadow: 0 10px 10px gray;
+    transition: height 2s ease;
+}
+.cars1>p{
+    color: black;
+}
+
+.cars1{
+    padding-top: 30px;
+}
+.car:hover .cars{
+    display: block;
+    width: 316px;
+    height: 100px;
+}
+
+
+.xxx{
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.right>a>.icon{
+    color: #757575;
+    float: left;
+}
+.right>a>.icon:hover{
+    color: #ff6700;
+}
+
+.left>a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    font-size: 12px;
+    color: #757575;
+    text-decoration: none;
+}
+
+.right>a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    font-size: 12px;
+    color: #757575;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+}
+
+span {
+    color: #757575;
+}
+
+.head2{
+    position: relative;
+    width: 1226px;
+    height: 460px;
+    top: 0;
+    margin: 0 auto;
+    box-shadow: 0 10px 10px gray;
+}
+.box{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 234px;
+    padding: 20px 0;
+    height: 420px;
+    border: 0;
+    color: #fff;
+    background: rgba(105,101,101,0.7);
+}
+.box>li{
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    width: 204px;
+    height: 42px;
+    line-height: 42px;
+    color: #424242;
+    
+}
+.box>li>a{
+    color: #fff;
+    width: 230px;
+    height: 42px;
+}
+.box>li:hover{
+    background-color: #ff6700;
+}
+.box>li>.icon{
+    /* font-size: 16px; */
+    float: right;
+    padding-right: 10px;
+    color: #fff;
+}
+.box2{
+    width: 992px;
+    height: 460px;
+    background-color: rgb(243, 233, 230);
+    position: absolute;
+    top: -20px;
+    left: 234px;
+    display: none;
+}
+.box>li:hover .box2{
+    display: block;
+}
+
+.box2>ul{
+    display: inline-block;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.box3{
+    width: 248px;
+    height: 153px;
+    display: inline-block;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;        
+    align-items: center;
+}
+.box3>span{
+    color: black;
+    text-decoration: none;
+}
+.box3>span:hover{
+    color: red;
+}
+.head3{
+    width: 1226px;
+    margin: 0 600px;
+    overflow:hidden;
+}
+.head3 > li{
+    float: left;
+}
+
+.tupian{
+    width: 160px;
+    height: 110px;
+    border-right: 1px solid #ccc;
+}
+
+.text1 > ul{
+    display: flex;
+    justify-items: flex-start;
+    padding-left: 550px;
+}
+.head3 >li>a{
+    display: inline-block;
+    padding: 0 10px;
+    height: 80px;
+    line-height:80px;
+    color: #333;
+}
+.head3>li>a:hover{
+    color: #ff6700;
+}
+.text1{
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    left: 0px;
+    /* text-align: center; */
+    z-index: 3; 
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; 
+}
+.head3>li:hover .text1{
+    display: block;
+}
